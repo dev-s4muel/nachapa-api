@@ -9,7 +9,7 @@ services:
     environment:
       POSTGRES_USER: ${ENV_DB_USERNAME}
       POSTGRES_PASSWORD: ${ENV_DB_PASSWORD}
-      POSTGRES_DB: ${ENV_DB_PORT}
+      POSTGRES_DB: ${ENV_DB_NAME}
     env_file:
       .env
     volumes:
